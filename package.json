@@ -1,7 +1,18 @@
 {
-  "name": "Scaffold-Nodejs",
+  "name": "NodeJs-Service-Template",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Benjamin Cruz <benjamin_cruz@Outlook.es>",
+  "license": "MIT",
+  "keywords": [
+    "NodeJs",
+    "Template"
+  ],
+  "description": "Basic template with nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenjii14/nodejs-service-template.git"
+  },
   "scripts": {
     "build": "babel src/index.js -d build",
     "start": "NODE_ENV=production npm run build && node build/index.js",
@@ -9,10 +20,6 @@
     "lint": "eslint .",
     "prepare": "husky install"
   },
-  "author": "Benjamin Cruz",
-  "license": "MIT",
-  "keywords": [],
-  "description": "Scaffold basic nodejs",
   "dependencies": {
     "express": "4.18.1"
   },

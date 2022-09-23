@@ -1,6 +1,6 @@
 # NodeJs - Service Template
 
-Scaffold Nodejs owned by [beenjii14](https://github.com/beenjii14)
+Basic template with Nodejs owned by [beenjii14](https://github.com/beenjii14)
 
 Structured and configured packages ready to put logic into your project
 
@@ -32,7 +32,7 @@ This is the directory structure of the application.
 
 Clon the repo
 
-`git clone https://github.com/beenjii14/Scaffold-Nodejs.git`
+`git clone https://github.com/beenjii14/nodejs-service-template.git`
 
 then run
 
