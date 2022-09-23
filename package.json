@@ -3,30 +3,31 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --exec babel-node",
-    "start": "NODE_ENV=production node index.js",
-    "prepare": "husky install",
-    "lint": "eslint --fix ."
+    "build": "babel src/index.js -d build",
+    "start": "NODE_ENV=production npm run build && node build/index.js",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "lint": "eslint .",
+    "prepare": "husky install"
   },
   "author": "Benjamin Cruz",
   "license": "MIT",
   "keywords": [],
   "description": "Scaffold basic nodejs",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "4.18.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.19.1",
-    "@babel/node": "^7.19.1",
-    "@babel/preset-env": "^7.19.1",
-    "dotenv": "^16.0.2",
-    "eslint": "^8.23.1",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "nodemon": "^2.0.20",
-    "prettier": "^2.7.1"
+    "@babel/cli": "7.18.10",
+    "@babel/core": "7.19.1",
+    "@babel/node": "7.19.1",
+    "@babel/preset-env": "7.19.1",
+    "dotenv": "16.0.2",
+    "eslint": "8.23.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "nodemon": "2.0.20",
+    "prettier": "2.7.1"
   }
 }
