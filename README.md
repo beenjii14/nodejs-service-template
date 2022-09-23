@@ -1,4 +1,4 @@
-# Scaffold Nodejs
+# NodeJs - Service Template
 
 Scaffold Nodejs owned by [beenjii14](https://github.com/beenjii14)
 
