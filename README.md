@@ -22,38 +22,62 @@ Structured and configured packages ready to put logic into your project
 This is the directory structure of the application.
 
 ```txt
-  ├── config -> Variables of environment
-  ├── src -> Source code
+  ├── .husky     -> Hooks of husky
+  ├── .__tests__ -> Tests of the application
+  ├── config     -> Variables of environment
+  ├── src        -> Source code
   │   ├── index.js -> Entry point of the application
-  │   ├── 
+  │   ├── utils    -> Utils of the application
 ```
 
-## Requirements
+## Prerequisites
 
-- [Node](https://nodejs.org/en/) >=16.14.0
+- Install Node.js from [here](http://nodejs.org) >=16.14.0
+- Install Git from [here](https://git-scm.com/downloads)
+- Have shell or command line (If you use Mac and Linux, you have a terminal pre-installed, if you are using windows you can use [git bash](https://git-scm.com/downloads))
 
-## Installation
+## Development
 
-Clon the repo
+```bash
+# Clone the repo
+git clone https://github.com/beenjii14/nodejs-service-template.git
 
-`git clone https://github.com/beenjii14/nodejs-service-template.git`
+# Install dependencies
+npm run i
 
-then run
-
-`npm run i`
-
-and finally run
-
-`npm run dev`
+# Run the app
+npm run dev
+```
 
 ## Production
 
-then run
+```bash
+# Clone the repo
+git clone https://github.com/beenjii14/nodejs-service-template.git
 
-`npm run i`
+# Install dependencies
+npm run i
 
-and finally run
+# Run the app
+npm run start
+```
 
-`npm run production:start`
+## Extra commands
+
+Run the unit tests
+
+```bash
+# Run the unit tests with coverage
+npm run test
+
+# Run the unit tests watch mode
+npm run test:watch
+```
+
+Run the eslint
+
+```bash
+npm run lint
+```
 
 ## [License MIT](LICENSE)
