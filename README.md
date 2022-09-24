@@ -7,7 +7,11 @@ Structured and configured packages ready to put logic into your project
 ## Configured packages
 
 - [Babel](https://babeljs.io/)
+- [Jest](https://jestjs.io/)
 - [Husky](https://typicode.github.io/husky/#/)
+- [Winston](https://www.npmjs.com/package/winston)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Morgan](https://www.npmjs.com/package/morgan)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
