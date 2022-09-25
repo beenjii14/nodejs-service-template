@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 import supertest from 'supertest';
 
 import { app, server } from '../src/';
@@ -7,6 +8,7 @@ const api = supertest(app);
 describe('Testing for server', () => {
   afterAll(() => {
     server.close();
+    mongoose.connection.close();
   });
 
   test('You must create a new server', (done) => {
