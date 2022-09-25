@@ -33,6 +33,7 @@ This is the directory structure of the application.
 ## Prerequisites
 
 - Install Node.js from [here](http://nodejs.org) >=16.14.0
+- Install PNPM from [here](https://pnpm.io/es/installation)
 - Install Git from [here](https://git-scm.com/downloads)
 - Have shell or command line (If you use Mac and Linux, you have a terminal pre-installed, if you are using windows you can use [git bash](https://git-scm.com/downloads))
 
@@ -43,10 +44,10 @@ This is the directory structure of the application.
 git clone https://github.com/beenjii14/nodejs-service-template.git
 
 # Install dependencies
-npm run i
+pnpm install
 
 # Run the app
-npm run dev
+pnpm dev
 ```
 
 ## Production
@@ -56,10 +57,10 @@ npm run dev
 git clone https://github.com/beenjii14/nodejs-service-template.git
 
 # Install dependencies
-npm run i
+pnpm install
 
 # Run the app
-npm run start
+pnpm start
 ```
 
 ## Extra commands
@@ -68,16 +69,16 @@ Run the unit tests
 
 ```bash
 # Run the unit tests with coverage
-npm run test
+pnpm test
 
 # Run the unit tests watch mode
-npm run test:watch
+pnpm test:watch
 ```
 
 Run the eslint
 
 ```bash
-npm run lint
+pnpm lint
 ```
 
 ## [License MIT](LICENSE)
