@@ -8,6 +8,7 @@ const app = express();
 
 // Configure middlewares
 app.use(cors());
+app.use(express.json());
 
 // configured for development and production only
 if (process.env.NODE_ENV !== 'test') {
